@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "qgis": {
+      "command": "C:\\Tools\\qgis-mcp-server-windows-x64-0.1.0\\qgis-mcp-0.1.0.exe",
+      "args": ["stdio"]
+    }
+  }
+}

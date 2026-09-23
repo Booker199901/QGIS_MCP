@@ -1,0 +1,18 @@
+[general]
+name=QGIS MCP Bridge
+qgisMinimumVersion=3.44
+qgisMaximumVersion=4.99
+description=Secure local bridge that lets standard MCP clients control the visible QGIS Desktop instance.
+about=QGIS MCP Bridge exposes validated QGIS operations only on loopback, requires a per-session token, and asks for confirmation in QGIS before destructive changes.
+version=0.2.0
+author=QGIS MCP contributors
+email=
+repository=
+tracker=
+homepage=
+category=Plugins
+tags=mcp,ai,automation,processing,gis
+experimental=True
+deprecated=False
+hasProcessingProvider=no
+server=False
