@@ -1,8 +1,8 @@
 # QGIS MCP
 
-QGIS MCP 是供應商中立的本機 MCP Server，讓支援標準 MCP 的 AI Client 控制使用者已開啟且可見的 QGIS Desktop。V1.1 第一批提供 58 個工具，除原有向量、Processing、樣式與畫布能力外，新增本機 Raster 檢查、網格對齊、重投影、NDVI、抽樣統計、Raster 樣式、分區統計與 COG 輸出。
+QGIS MCP 是供應商中立的本機 MCP Server，讓支援標準 MCP 的 AI Client 控制使用者已開啟且可見的 QGIS Desktop。V0.2 第一批提供 58 個工具，除原有向量、Processing、樣式與畫布能力外，新增本機 Raster 檢查、網格對齊、重投影、NDVI、抽樣統計、Raster 樣式、分區統計與 COG 輸出。
 
-目前版本：`0.2.0`（V1.1 本機遙測影像分析）  
+目前版本：`0.2.0`（V0.1 本機遙測影像分析）  
 正式測試：Windows 11、QGIS 3.44.13、QGIS 4.2.1  
 授權：GPL-2.0-or-later
 
@@ -107,7 +107,7 @@ Processing 與 Raster 工作在同一 QGIS 實例中依序排隊，回傳 `job_i
 - 畫布：狀態、範圍、縮放、PNG 截圖。
 - Raster：metadata、精確網格對齊、重投影、NDVI、抽樣統計、RGB／灰階／手動色階樣式、分區統計與 GeoTIFF／COG 轉換。
 
-V1.1 第一批只處理已載入 QGIS 的本機 Raster。NDVI 必須明確指定 Red／NIR band 與校正模式；不同網格需先使用 `prepare_raster`，品質遮罩若缺少會回傳警告。DEM／GRD 地形分析、完整向量座標工具與圖面配置留在 V1.1 後續批次；自動圖片對位屬於 V1.2。
+V0.1 第一批只處理已載入 QGIS 的本機 Raster。NDVI 必須明確指定 Red／NIR band 與校正模式；不同網格需先使用 `prepare_raster`，品質遮罩若缺少會回傳警告。DEM／GRD 地形分析、完整向量座標工具與圖面配置留在 V1.1 後續批次；自動圖片對位屬於 V1.2。
 
 ## 開發與驗證
 
